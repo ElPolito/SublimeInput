@@ -1,0 +1,57 @@
+.SublimeInput_Check{
+	display: inline-block;
+	width : 11px; height : 11px;
+	border : solid 1px black;
+	margin : 3px 4px;
+	vertical-align: middle;
+	border-radius: 0px;
+	position: relative;
+}
+.SublimeInput_Check span{
+	display: inline-block;
+	position: absolute;
+	top : 0; right : 0; left : 0; bottom : 0;
+	background: blue;
+}
+
+.SublimeInput_Slide{
+	display: inline-block;
+	width : 33px; height : 11px;
+	margin : 3px 4px;
+	background: lightgray;
+	vertical-align: middle;
+	border-radius: 15px;
+	position: relative;
+}
+.SublimeInput_Slide span{
+	display: inline-block;
+	position: absolute;
+	left : 0;
+	border-radius: 50%;
+	background: gray;
+	width : 15px; height : 15px;
+	top : -2px;
+}
+.SublimeInput_Slide.active{
+	background: lightblue;
+}
+.SublimeInput_Slide.active span{
+	background: blue;
+}
+
+.SublimeInput_Radio{
+	display: inline-block;
+	width : 11px; height : 11px;
+	border : solid 1px black;
+	margin : 3px 4px;
+	vertical-align: middle;
+	border-radius: 50%;
+	position: relative;
+}
+.SublimeInput_Radio span{
+	display: inline-block;
+	position: absolute;
+	top : 2px; right : 2px; left : 2px; bottom : 2px;
+	background: blue;
+	border-radius: 50%;
+}
